@@ -17,6 +17,7 @@ function MainPage() {
                     </button>
                 </div>
 
+
                 <div className="main-content">
                     <h1>What if we told you, </h1>
                     <h1>you can now <span>watch</span> every fun and </h1>
