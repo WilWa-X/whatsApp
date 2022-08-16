@@ -2,38 +2,55 @@ import React from "react";
 import './Main-page.css'
 
 function MainPage() {
+
+    // function showNavLinks() {
+    //     document.querySelector('.menu-nav-links').classList.add('show');
+    //     document.querySelector('#overlay').classList.add('show');
+    // }
+    //
+    // function removeNavLinks() {
+    //     document.querySelector('.menu-nav-links').classList.remove('show');
+    //     document.querySelector('#overlay').classList.remove('show');
+    // }
+
     return (
         <body>
-            <section id="main-section">
-                <div className="main-link">
-                    <li id="logo"><a href="main-page.js"> SpaceTube</a></li>
-                    <li><a href="/">Blogs</a></li>
-                    <li><a href="/">About Us</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contact Us</a></li>
-                    <li><a href="/">FAQs</a></li>
-                    <button type="submit" className="acct-btn">
-                        <li><a href="/">Account</a></li>
-                    </button>
+            <section id={"main-section"}>
+                <div className={"main-link"}>
+
+                    {/*<div className={"closeButton"}>*/}
+                    {/*    <span onClick={ removeNavLinks }>&toggle-menu;</span>*/}
+                    {/*</div>*/}
+                    {/*<li className={"nav-link menu"} onClick={ showNavLinks }><a href={"#"}>Menu</a></li>*/}
+
+                    <li id={"logo"}><a href={"main-page.js"}> SpaceTube</a></li>
+                    <li className={"link"}><a href={"/"}>Blogs</a></li>
+                    <li className={"link"}><a href={"/"}>About Us</a></li>
+                    <li className={"link"}><a href={"/"}>Services</a></li>
+                    <li className={"link"}><a href={"/"}>Contact Us</a></li>
+                    <li className={"link"}><a href={"/"}>FAQs</a></li>
+                    {/*<button type={"submit"} className={"account-link"}>*/}
+                    <li className={"account-link"}><a href={"/"}>Account</a></li>
+                    {/*</button>*/}
                 </div>
 
 
-                <div className="main-content">
+                <div className={"main-content"}>
                     <h1>What if we told you, </h1>
                     <h1>you can now <span>watch</span> every fun and </h1>
                     <h1>documentation of the <span>solar system</span> here..</h1>
                     <p>Maximum flexibility in production. Relief of employees</p>
                     <p>by performing ergonomically unfavourable work steps</p>
                     <p>that could not previously automate.</p><br/>
-                    <button type="submit" className="btn">
-                        <li><a href="/">Get Started here!</a></li>
+                    <button type={"submit"} className={"btn"}>
+                        <li><a href={"/"}>Get Started here!</a></li>
                     </button>
                 </div>
             </section>
 
-            <section id="second-section">
+            <section id={"second-section"}>
                 <h1>Space <span>News</span></h1>
-                <p className="news-title">Human-robot</p>
+                <p className={"news-title"}>Human-robot</p>
                 <br/>
                 <p>Floating farms, brain wave passwords, and coffee-powered cars </p>
                 <p>are just some incredible inventions and</p>
@@ -50,10 +67,11 @@ function MainPage() {
                 <p>Autonomous, collaborative robots are also used to</p>
                 <p>supply production workshops.</p>
 
-                <button type="submit" className="btn learn-more">
-                    <li><a href="/">Learn More Here!</a></li>
+                <button type={"submit"} className={"btn learn-more"}>
+                    <li><a href={"/"}>Learn More Here!</a></li>
                 </button>
             </section>
+        {/*<div id={"overlay"}></div>*/}
         </body>
     )
 }

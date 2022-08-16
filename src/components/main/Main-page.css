@@ -3,7 +3,6 @@
 }
 
 #main-section{
-    /*border: 3px solid red;*/
     font-size: 15px;
     font-family: "Gelion Regular", sans-serif;
     font-weight: bolder;
@@ -18,8 +17,7 @@
     justify-content: space-between;
     cursor: pointer;
     padding: 1em 4em;
-    height: 50px;
-    /*border: 3px solid red;*/
+    height: 35px;
     background: white;
 }
 
@@ -32,14 +30,12 @@ li a{
     color: black;
 }
 
-#main-section button{
-    margin-top: -10px;
-    border-color: black;
-    border-radius: 20px;
-    height:60px;
+.account-link{
     cursor: pointer;
-    width: 150px;
-    color: white;
+    width: 100px;
+    transition: background-color, color, letter-spacing;
+    transition-duration: 0.8s, 8s, 0.8s;
+    transition-timing-function: ease-out, ease-in, ease-out;
 }
 
 #logo{
@@ -47,24 +43,39 @@ li a{
     margin-top: -10px;
 }
 
-.main-link button:hover{
-    transition: .8s ease-in;
-    padding: 5px 25px;
-    background-color: rgba(49, 112, 146, 0.94);
+.account-link:hover, .account-link:focus{
+    padding-top: 10px;
+    color: white;
+    font-weight: normal;
+    background-color: #afb3bc;
+    letter-spacing: 4px;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+.link:hover{
+    padding-top: 10px;
+    color: white;
+    font-weight: normal;
+    transition: .8s linear;
+    background-color: #afb3bc;
+    border-radius: 12px;
+    width: 100px;
+    height: 35px;
+    margin-bottom: 25px;
 }
 
 .main-content{
     padding: 1em 3em ;
-    /*border: 3px solid greenyellow;*/
     font-size: 20px;
     margin: 10em 0;
     text-transform: capitalize;
 }
 
-
 .main-content h1{
     line-height: 2em;
-    /*border: 3px solid red;*/
     letter-spacing: 3px;
 }
 
@@ -91,14 +102,12 @@ li a{
     font-family: "Gelion Regular", sans-serif;
     font-weight: bolder;
     height: 50%;
-    /*border: 3px solid red;*/
     color: black;
     padding: 1rem 4em;
     margin-top: -200px;
 }
 
 #second-section h1{
-    /*border: 3px solid red;*/
     font-style: oblique;
     font-weight: bolder;
     font-size: 40px;
@@ -106,7 +115,6 @@ li a{
 }
 
 #second-section p{
-    /*border: 3px solid red;*/
     font-size: 18px;
     color: #928b8b;
     letter-spacing: 4px;
@@ -130,29 +138,8 @@ li a{
 }
 
 #second-section .learn-more:hover{
-    transition: .8s ease-in;
+    transition-duration: .8s;
+    transition-timing-function: linear;
     background-color: #063f3f;
     color: #faf2e4;
 }
-
-/*#third-section{*/
-/*    border: 3px solid red;*/
-/*    padding: 1rem 3em;*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*}*/
-
-/*.our-aim h1{*/
-/*    font-size: 25px;*/
-/*    margin: 40px 0;*/
-/*    font-weight: bolder;*/
-/*    line-height: 1px;*/
-/*}*/
-
-/*.our-aim{*/
-/*    border: 3px solid red;*/
-/*}*/
-
-/*.our-aim p{*/
-/*    position: absolute;*/
-/*}*/
