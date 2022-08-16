@@ -38,11 +38,6 @@ li a{
     transition-timing-function: ease-out, ease-in, ease-out;
 }
 
-#logo{
-    font-size: 30px;
-    margin-top: -10px;
-}
-
 .account-link:hover, .account-link:focus{
     padding-top: 10px;
     color: white;
@@ -53,6 +48,11 @@ li a{
     width: 100px;
     height: 35px;
     margin-bottom: 25px;
+}
+
+#logo{
+    font-size: 30px;
+    margin-top: -10px;
 }
 
 .link:hover{
