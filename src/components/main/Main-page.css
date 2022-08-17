@@ -18,7 +18,7 @@
     cursor: pointer;
     padding: 1em 4em;
     height: 35px;
-    background: white;
+    background: #eff4f1;
 }
 
 li{
@@ -36,18 +36,17 @@ li a{
     transition: background-color, color, letter-spacing;
     transition-duration: 0.8s, 8s, 0.8s;
     transition-timing-function: ease-out, ease-in, ease-out;
+    padding: 2px 5px;
+    margin: 0 15px;
 }
 
 .account-link:hover, .account-link:focus{
-    padding-top: 10px;
-    color: white;
     font-weight: normal;
     background-color: #afb3bc;
     letter-spacing: 4px;
     border-radius: 7px;
     width: 100px;
     height: 35px;
-    margin-bottom: 25px;
 }
 
 #logo{
@@ -55,17 +54,25 @@ li a{
     margin-top: -10px;
 }
 
+.link{
+    cursor: pointer;
+    width: 100px;
+    transition: background-color, color, letter-spacing;
+    transition-duration: 0.8s, 8s, 0.8s;
+    transition-timing-function: ease-out, ease-in, ease-out;
+    padding: 2px 5px;
+    margin: 0 15px;
+}
+
 .link:hover{
-    padding-top: 10px;
-    color: white;
     font-weight: normal;
-    transition: .8s linear;
     background-color: #afb3bc;
-    border-radius: 12px;
+    letter-spacing: 2px;
+    border-radius: 7px;
     width: 100px;
     height: 35px;
-    margin-bottom: 25px;
-    letter-spacing: 2px;
+    padding: 2px 5px;
+    margin: 0 15px;
 }
 
 .main-content{
