@@ -1,37 +1,20 @@
 import React from "react";
 import './Main-page.css'
+// import account from "../account/account";"../account/account.js";
 
 function MainPage() {
-
-    // function showNavLinks() {
-    //     document.querySelector('.menu-nav-links').classList.add('show');
-    //     document.querySelector('#overlay').classList.add('show');
-    // }
-    //
-    // function removeNavLinks() {
-    //     document.querySelector('.menu-nav-links').classList.remove('show');
-    //     document.querySelector('#overlay').classList.remove('show');
-    // }
 
     return (
         <body>
             <section id={"main-section"}>
                 <div className={"main-link"}>
-
-                    {/*<div className={"closeButton"}>*/}
-                    {/*    <span onClick={ removeNavLinks }>&toggle-menu;</span>*/}
-                    {/*</div>*/}
-                    {/*<li className={"nav-link menu"} onClick={ showNavLinks }><a href={"#"}>Menu</a></li>*/}
-
                     <li id={"logo"}><a href={"main-page.js"}> SpaceTube</a></li>
                     <li className={"link"}><a href={"/"}>Blogs</a></li>
                     <li className={"link"}><a href={"/"}>About Us</a></li>
                     <li className={"link"}><a href={"/"}>Services</a></li>
                     <li className={"link"}><a href={"/"}>Contact Us</a></li>
                     <li className={"link"}><a href={"/"}>FAQs</a></li>
-                    {/*<button type={"submit"} className={"account-link"}>*/}
                     <li className={"account-link"}><a href={"/"}>Account</a></li>
-                    {/*</button>*/}
                 </div>
 
 
@@ -71,7 +54,6 @@ function MainPage() {
                     <li><a href={"/"}>Learn More Here!</a></li>
                 </button>
             </section>
-        {/*<div id={"overlay"}></div>*/}
         </body>
     )
 }

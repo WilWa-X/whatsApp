@@ -6,7 +6,7 @@
     font-size: 15px;
     font-family: "Gelion Regular", sans-serif;
     font-weight: bolder;
-    background-color: black;
+    /*background-color: black;*/
     background-size:  cover;
     height: 50%;
     color: white;
@@ -77,8 +77,9 @@ li a{
 
 .main-content{
     padding: 1em 3em ;
+    background-color: black;
     font-size: 20px;
-    margin: 10em 0;
+    margin: 0;
     text-transform: capitalize;
 }
 
@@ -111,8 +112,7 @@ li a{
     font-weight: bolder;
     height: 50%;
     color: black;
-    padding: 1rem 4em;
-    margin-top: -200px;
+    /*padding: 1rem 4em;*/
 }
 
 #second-section h1{
