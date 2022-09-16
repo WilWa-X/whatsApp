@@ -1,12 +1,10 @@
 import './App.css';
-// import MainPage from "./components/main/main-page";
-import Account from "./components/account/account";
+import ChatRoom from "./components/ChatRoom";
 
-function App() {
+const App = () => {
   return (
       <div className={"App"}>
-          {/*<MainPage />*/}
-          <Account/>
+          <ChatRoom />
       </div>
   );
 }
